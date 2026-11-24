@@ -1,0 +1,54 @@
+{
+  "solver_converged": true,
+  "solver_iterations": 66,
+  "daily_energy_mwh": {
+    "baseline": 34.6,
+    "mpc": 30.62,
+    "reduction_pct": -11.5
+  },
+  "peak_c1_c2_kwh": {
+    "baseline": 11028.0,
+    "mpc": 7456.0,
+    "reduction_pct": -32.4
+  },
+  "peak_power_kw": {
+    "baseline": 1857.3,
+    "mpc": 1448.0
+  },
+  "peak_demand_kva": {
+    "baseline": 2021.0,
+    "mpc": 1505.2,
+    "reduction_pct": -25.5
+  },
+  "ro_fouling_tmp_drift_bar": {
+    "baseline": 0.63,
+    "mpc": 0.27,
+    "reduction_pct": -56.5
+  },
+  "tank_bounds_pct": {
+    "eq_min": 20.0,
+    "eq_max": 49.9,
+    "brine_min": 50.0,
+    "brine_max": 65.0,
+    "safe_limit": [
+      20.0,
+      85.0
+    ]
+  },
+  "ro_brine_m3_day": {
+    "baseline_82pct": 900.0,
+    "mpc_85pct": 750.0,
+    "reduction_pct": -16.7
+  },
+  "annualized_economics": {
+    "annual_energy_saved_gwh": 1.05,
+    "annual_co2_avoided_t": 709.4,
+    "annual_brine_diverted_kl": 49500.0,
+    "enterprise_5mld_gross_energy_tod_lakh": 129.5,
+    "enterprise_5mld_gross_md_lakh": 37.63,
+    "enterprise_5mld_net_savings_lakh": 144.2,
+    "enterprise_5mld_payback_months": 3.7,
+    "msme_1mld_net_savings_lakh": 27.9,
+    "msme_1mld_payback_months": 6.2
+  }
+}
